@@ -7,7 +7,6 @@ How to use this Base64 library:
    #import "GTMDefines.h"
 
 2. 
-// encode base64
 - (NSString *) encodeBase64:(NSString *) input{
     NSData *data = [input dataUsingEncoding:NSUTF8StringEncoding allowLossyConversion:YES];
     data = [GTMBase64 encodeData:data];
@@ -15,7 +14,7 @@ How to use this Base64 library:
     return base64String;
 }
 
-//decode base64
+
 - (NSString *) decodeBase64:(NSString *) input{
     NSData *data = [input dataUsingEncoding:NSUTF8StringEncoding allowLossyConversion:YES];
     data = [GTMBase64 decodeData:data];
