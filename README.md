@@ -1,4 +1,3 @@
-# GTMBase64-Objective-C-
 A library of Base64 with Objective-C (iOS)
 
 # How to use this Base64 library
