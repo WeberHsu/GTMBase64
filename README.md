@@ -1,11 +1,13 @@
 # GTMBase64-Objective-C-
 A library of Base64 with Objective-C (iOS)
 
-How to use this Base64 library
-
+# How to use this Base64 library
 1.
+
    #import "GTMBase64.h"
+   
    #import "GTMDefines.h"
+   
 2.
 - (NSString *) encodeBase64:(NSString *) input{
     NSData *data = [input dataUsingEncoding:NSUTF8StringEncoding allowLossyConversion:YES];
